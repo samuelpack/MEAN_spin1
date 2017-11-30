@@ -31,6 +31,7 @@ module.exports = function() {
 
     require('../app/routes/index.server.routes.js')(app);
 
+
     // express.static()middleware is placed below the call for the routing file
     // because if it were above, express would look for HTTP request paths in
     // the static files folder.
